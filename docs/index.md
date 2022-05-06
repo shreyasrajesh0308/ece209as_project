@@ -1,12 +1,13 @@
 # Abstract
 
-Provide a brief overview of the project objhectives, approach, and results.
+We aim to look at common augmentation techniques in sensor data and understand the effect they have on classification accuracy per target class, that is aim to understand not only how augmentation affects overall classification accuracy but also per class accuracy. 
+
 
 # Team
 
-* Name of team member \#1 
-* Name of team member \#2 (delete this if necessary)
-* Name of team member \#3 (delete this if necessary)
+* Arunachalam Chidambaram
+* Hariram Veeramani
+* Shreyas Rajesh
 
 # Required Submissions
 
