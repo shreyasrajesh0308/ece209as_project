@@ -70,8 +70,7 @@ VanKasteren,
 * CASAS Aruba- http://casas.wsu.edu/datasets/
 * CASAS MultiResident- http://casas.wsu.edu/datasets/
 * mHealth- http://archive.ics.uci.edu/ml/datasets/mhealth+dataset
-* Opportunity- 
-https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition#:~:text=Data%20Set%20Information%3A-,The%20OPPORTUNITY%20Dataset%20for%20Human%20Activity%20Recognition%20from%20Wearable%2C%20Object,%2C%20feature%20extraction%2C%20etc)
+* Opportunity- https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition
 
 
 
