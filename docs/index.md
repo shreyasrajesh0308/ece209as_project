@@ -11,7 +11,7 @@ We aim to look at common augmentation techniques in sensor data and understand t
 
 # Required Submissions
 
-* [Proposal](proposal)
+* [Proposal](./proposal)
 * [Midterm Checkpoint Presentation Slides](http://)
 * [Final Presentation Slides](http://)
 * [Final Report](report)
