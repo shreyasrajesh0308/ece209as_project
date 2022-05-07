@@ -1,7 +1,9 @@
 # Abstract
+Regularization is a commonly used technique to ensure better generalization in neural network models. Recent works show that Data Augmentation (DA) for images using ResNet50 has a detrimental effect on closer analysis, the accuracy of select classes has dropped (for example is the ‘barn spider’ class accuracy falls from 68% to 46% by introducing random crop DA during training). 
 
-We aim to look at common augmentation techniques in sensor data and understand the effect they have on classification accuracy per target class, that is aim to understand not only how augmentation affects overall classification accuracy but also per class accuracy. 
+ Human Activity Recognition (HAR) is vital for smart assistive technologies for usage in healthcare, skill assessment, smart homes, and industries. Fitness trackers are commercially available to detect step count, calorie burn, heart rate tracking, and fall detection. Wearable activity recognition relies on combinations of sensors, such as accelerometers, gyroscopes, or magnetic field sensors. Activities are commonly classified using feature extraction on sliding windows followed by classification, and template matching approaches. Frequently used data augmentation for HAR includes Noise Injection, Dynamic Time Warping, and Time Cropping.
 
+Due to numerous applications of activity recognition, it is crucial to be aware of the downfalls of these data augmentation techniques. 
 
 # Team
 
