@@ -2,62 +2,93 @@
 
 ## 1. Motivation & Objective
 
-We aim to look at common augmentation techniques in sensor data and understand the effect they have on classification accuracy per target class, that is aim to understand not only how augmentation affects overall classification accuracy but also per class accuracy. 
+Regularization is a commonly used technique to ensure better generalization in neural network models. Recent works show that Data Augmentation (DA) for images using ResNet50 has a detrimental effect on closer analysis, the accuracy of select classes has dropped (for example is the ‘barn spider’ class accuracy falls from 68% to 46% by introducing random crop DA during training). 
+
+ Human Activity Recognition (HAR) is vital for smart assistive technologies for usage in healthcare, skill assessment, smart homes, and industries. Fitness trackers are commercially available to detect step count, calorie burn, heart rate tracking, and fall detection. Wearable activity recognition relies on combinations of sensors, such as accelerometers, gyroscopes, or magnetic field sensors. Activities are commonly classified using feature extraction on sliding windows followed by classification, and template matching approaches. Frequently used data augmentation for HAR includes Noise Injection, Dynamic Time Warping, and Time Cropping.[2], [4].
+
+Due to numerous applications of activity recognition, it is crucial to be aware of the downfalls of these data augmentation techniques. 
 
 ## 2. State of the Art & Its Limitations
 
-Currently no work looks at the the effects of how augmentation affects class accuracy in sensor data, recent work (Lecun Paper) has looked at how augmentation effects class based accuracy for images which we look to expand on. 
+To our knowledge, none of the contemporary works study the effect of data augmentation techniques on class accuracy for human activity recognition. Recent work [1] has looked at how augmentation affects class-based accuracy for images which we look to expand for human activity recognition. The current state of the art models for human activity recognition are [2]: DeepConvLSTM, DeepConvLSTM Attention, Multi-Head Convolutional Attention [2]
 
 ## 3. Novelty & Rationale
 
-We aim to explore various augmentation techniques commonly used on sensor data and understand the possible bias these induce into the system, the Lecun paper provides a good framework for exploring this problem. 
+We aim to explore various augmentation techniques commonly used in supervised learning on sensor data commonly used in human activity recognition and hope to understand the possible bias they induce into the system. 
 
 ## 4. Potential Impact
 
-We believe this work could provide a better understanding of the effects of augmentation, data augmentation techniques are used extensively in most DL systems due to a lack of enough data and exploring the true effects it has on the system could have a large impact on influencing further exploration into data augmentation but we also believe it has the broader effect of providing insights to understand what the network is actually learning. 
+We believe this work could provide a better understanding of the effects of augmentation on HAR. Data augmentation techniques are used extensively in most deep learning systems to improve generalization and reduce overfitting. Exploring the effects on class-wise accuracy will help to enhance understanding of the effects it has on the system and could have a large impact on influencing further exploration into data augmentation. The work also has the broader effect of providing insights into what is being learned by the deep learning network.
 
 ## 5. Challenges
 
 The following are the main identified challenges:
 
-* Access to varied datasets to test hypothesis. 
-* Possible ambiguity in the results and interpreting the results in the right way.
+* Number of Human activity recognition datasets is fewer, limiting our study.
+* Datasets for human activity recognition have different features requiring varied model architectures
+* Interpreting the results of data augmentation on a per-class basis could be ambiguous.
 
 ## 6. Requirements for Success
 
-* Access to good datasets with available metrics on particular models. 
-* Skills required are python programming and familiarity with a Deep Learning library we use Keras with a Tensorflow backend. 
-* We dont estimate the need for a lot of compute to carry out this experiment at the moment.
+* Skills required are python programming and familiarity with a Deep Learning library. We shall use Keras with a Tensorflow backend. 
+* Adequate compute for training deep learning models. 
+
 
 ## 7. Metrics of Success
 
-* We look at the class based testing accuracy for all the datasets we test on. 
-* Using the base accuracy without augmentation as a baseline we seek to compare class level accuracies for model trained with augmented data and understand its effects. 
+* Comparison of dataset augmentation techniques on HAR
+* Make inferences based on the results for the HAR classification problem
+* Deduce the best data augmentation technique and study its performance against models without augmentation. Specifically, the accuracy per class, as well as the effects of various data augmentation techniques, is studied. 
 
 ## 8. Execution Plan
 
-* Consider one Baseline Model (ConvLSTM) and train it without augmentation on one dataset. We consider the HAR dataset. This will serve as our baseline. 
-* Perform a literature survery of common augmentation techniques sensor data, understand what is commonly used and pick the best augmentation strategies. 
-* Train the same model with just one augmentation applied at a time. 
-* Compare the accuracy of each class with the baseline model.
-* Apply more than one augmentation to the data and retrain the model, estimate accuracies for these. 
+* Consider a baseline Model and train it without augmentation on the HAR dataset. This shall serve as our baseline. 
+* Perform a literature survey of common augmentation techniques sensor data, understand what is commonly used and pick the best augmentation strategies. 
+* Train the same model with just unique augmentation applied at a time. 
+* Compare the accuracy of each class of the newly created model with the baseline model.
+* Apply more than one augmentation to the data and retrain the model followed by estimating accuracies. 
 * Repeat process with different models and datasets. 
-
+* Maybe trying to find Optimum policies for Augmentation
 
 ## 9. Related Work
+Deep-Learning based Human Activity Recognition has been seeing a lot of recent developments and is well studied in the literature [4], [3]. To tackle the diverse problems that are distinct to the Sensor/Human Activity Recognition Dataset such as the amount of Dataset Fidelity, High Frequency/Random Noise Corruption, variation in temporal scales, and sampling frequencies that mask the original data [2], researchers in continuous pursuit of strategies that would help the Deep learning models to still capture distinguish between activities in presence of these activities[5]. This problem is compounded by the lack of relevant datasets which align closely with the rich, diverse data representations that sensors yield in real-time. Augmentation strategies are inevitably utilized to address this issue thereby increasing the amount of the dataset size available at one’s disposal for attempting to train complex data-hungry Deep Learning models. Hence, there is a strong incentive to conduct further investigation along the lines of analyzing Augmentation and its impact, implications, and performance benefits that could be potentially reaped while exploring the fairness implications of models in serving the predictions for a candidate dataset that might be randomly sampled from any of the class entities.
+
 
 ### 9.a. Papers
 
-List the key papers that you have identified relating to your project idea, and describe how they related to your project. Provide references (with full citation in the References section below).
+* The Effects of Regularization and Data Augmentation are Class Dependent
+* Sensor Data Augmentation by Resampling for Contrastive Learning in Human Activity Recognition
+* Sensor-Based Datasets for Human Activity Recognition – A Systematic Review of Literature
+* Time Series Data Augmentation for Deep Learning: A Survey
+* Multi-Scale Convolutional Neural Networks for Time Series Classification
 
 ### 9.b. Datasets
+Datasets that are tentatively planned to be used are :
+* UCI HAR- https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+VanKasteren,
+* CASAS Kyoto- http://casas.wsu.edu/datasets/
+* CASAS Aruba- http://casas.wsu.edu/datasets/
+* CASAS MultiResident- http://casas.wsu.edu/datasets/
+* mHealth- http://archive.ics.uci.edu/ml/datasets/mhealth+dataset
+* Opportunity- 
+https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition#:~:text=Data%20Set%20Information%3A-,The%20OPPORTUNITY%20Dataset%20for%20Human%20Activity%20Recognition%20from%20Wearable%2C%20Object,%2C%20feature%20extraction%2C%20etc)
 
-List datasets that you have identified and plan to use. Provide references (with full citation in the References section below).
+
 
 ### 9.c. Software
 
-List softwate that you have identified and plan to use. Provide references (with full citation in the References section below).
+TensorFlow- https://www.tensorflow.org/
+Python- https://www.python.org/
+Jupyter Notebook- https://jupyter.org/
+Scikit-learn -scikit-learn: machine learning in Python — scikit-learn 1.0.2 documentation
 
 ## 10. References
 
-List references correspondign to citations in your text above. For papers please include full citation and URL. For datasets and software include name and URL.
+[1] Balestriero, Randall & Bottou, Leon & LeCun, Yann. (2022). The Effects of Regularization and Data Augmentation are Class Dependent. 
+[2] Wang, Jinqiang and Zhu, Tao and Gan, Jingyuan and Chen, Liming and Ning, Huansheng and Wan, Yaping. (2021). Sensor Data Augmentation with Resampling for Contrastive Learning in Human Activity Recognition.
+[3]E. De-La-Hoz-Franco, P. Ariza-Colpas, J. M. Quero and M. Espinilla, "Sensor-Based Datasets for Human Activity Recognition – A Systematic Review of Literature," in IEEE Access, vol. 6, pp. 59192-59210, 2018, doi: 10.1109/ACCESS.2018.2873502.
+[4] Wen, Qingsong et al. “Time Series Data Augmentation for Deep Learning: A Survey.” IJCAI (2021).
+[5] Cui, Zhicheng and Chen, Wenlin and Chen, Yixin. (2016). Multi-Scale Convolutional Neural Networks for Time Series Classification. 
+
+
+
