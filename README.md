@@ -1,5 +1,8 @@
-# ece209as_project
+# Effect of Augmentation on Human Activity Recognition. 
+
 This is repository template for UCLA ECE209AS projects.
+
+Website for page: https://shreyasrajesh0308.github.io/ece209as_project/
 
 Use the folders as follows:
 
