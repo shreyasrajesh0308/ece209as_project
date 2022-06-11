@@ -14,6 +14,7 @@ Due to numerous applications of activity recognition, it is crucial to be aware 
 # Required Submissions
 
 * [Proposal](./proposal.md)
-* [Midterm Checkpoint Presentation Slides](http://)
+* [Midterm Checkpoint Presentation Slides](./Implications of Augmentation on Human Activity Learning Approaches Final Presenation.pdf
+)
 * [Final Presentation Slides](http://)
 * [Final Report](report)
