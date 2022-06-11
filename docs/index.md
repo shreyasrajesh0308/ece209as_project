@@ -14,6 +14,6 @@ Due to numerous applications of activity recognition, it is crucial to be aware 
 # Required Submissions
 
 * [Proposal](./proposal.md)
-* [Midterm Checkpoint Presentation Slides](./Final_Presentation)
-* [Final Presentation Slides](./Midpoint_presentation)
+* [Midterm Checkpoint Presentation Slides](./Final_Presentation.pdf)
+* [Final Presentation Slides](./Midpoint_presentation.pdf)
 * [Final Report](report)
