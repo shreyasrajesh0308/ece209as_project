@@ -4,11 +4,11 @@
 ## Table of Contents
 * [Abstract](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#abstract)
 * [Introduction](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#1-introduction)
-* [Related Work](##3-Related-Work)
-* [Technical Approach](##4-technical-approach)
-* [Evaluation and Results](##5-evaluation-and-results)
-* [Discussion and Conclusions](##6-discussion-and-conclusions)
-* [References](##7-references)
+* [Related Work](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#2-related-work)
+* [Technical Approach](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#3-technical-approach)
+* [Evaluation and Results](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#4-evaluation-and-results)
+* [Discussion and Conclusions](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#5-discussion-and-conclusion)
+* [References](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#6-references)
 
 
 
