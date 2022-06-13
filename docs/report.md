@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-* [Abstract]([##1-Abstract](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#abstract)
+* [Abstract](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/report.md#abstract)
 * [Introduction](##2-Introduction)
 * [Related Work](##3-Related-Work)
 * [Technical Approach](##4-technical-approach)
