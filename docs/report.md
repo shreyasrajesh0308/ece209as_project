@@ -4,7 +4,7 @@
 ## Table of Contents
 * [Abstract](##1-Abstract)
 * [Introduction](##2-Introduction)
-* [Related Work](##3-Related Work)
+* [Related Work](##3-Related-Work)
 * [Technical Approach](##4-technical-approach)
 * [Evaluation and Results](##5-evaluation-and-results)
 * [Discussion and Conclusions](##6-discussion-and-conclusions)
@@ -12,7 +12,7 @@
 
 
 
-##Abstract
+## Abstract
 
 ## 1. Introduction
 
@@ -57,7 +57,7 @@ The following are the main identified challenges:
 ## 2. Related Work
 Deep-Learning based Human Activity Recognition has been seeing a lot of recent developments and is well studied in the literature [4], [3]. To tackle the diverse problems that are distinct to the Sensor/Human Activity Recognition Dataset such as the amount of Dataset Fidelity, High Frequency/Random Noise Corruption, variation in temporal scales, and sampling frequencies that mask the original data [2], researchers in continuous pursuit of strategies that would help the Deep learning models to still capture distinguish between activities in presence of these activities[5]. This problem is compounded by the lack of relevant datasets which align closely with the rich, diverse data representations that sensors yield in real-time. Augmentation strategies are inevitably utilized to address this issue thereby increasing the amount of the dataset size available at one’s disposal for attempting to train complex data-hungry Deep Learning models. Hence, there is a strong incentive to conduct further investigation along the lines of analyzing Augmentation and its impact, implications, and performance benefits that could be potentially reaped while exploring the fairness implications of models in serving the predictions for a candidate dataset that might be randomly sampled from any of the class entities.
 
-##3. Technical Approach
+## 3. Technical Approach
 Datasets
 We consider the following 3 popular open source datasets
 UCIHAR [12]
@@ -87,12 +87,12 @@ The study involves a model architecture of varying complexity  to understand the
 
 
 
-##4. Evaluation and Results
+## 4. Evaluation and Results
  
 
 
 
-##5. Discussion and Conclusion
+## 5. Discussion and Conclusion
 
 In this project, we studied the impact of data augmentation and weight decay on human activity recognition datasets. Our findings indicate the best regularization varies across the model architecture and datasets.  Yet a significant difference is not noticed in class accuracies in human activity recognition when compared to image classification [1]. We considered a subset of the commonly used model architectures and data augmentation techniques. It is interesting to see the impact of regularization on Opportunity[12] and WISDM[13] dataset. A possible direction as an extension would be to use a combination of augmentation techniques to compare against the baseline model. Another promising approach to HAR datasets is using contrastive learning which has shown to have more accuracy[2] as well as using generative models for augmentation.  
 
@@ -100,9 +100,9 @@ In this project, we studied the impact of data augmentation and weight decay on 
 
 [1]  Balestriero, Randall & Bottou, Leon & LeCun, Yann. (2022). The Effects of Regularization and Data Augmentation are Class Dependent. 
 
-[2Wang, Jinqiang and Zhu, Tao and Gan, Jingyuan and Chen, Liming and Ning, Huansheng and Wan, Yaping. (2021). Sensor Data Augmentation with Resampling for Contrastive Learning in Human Activity Recognition
+[2] Wang, Jinqiang and Zhu, Tao and Gan, Jingyuan and Chen, Liming and Ning, Huansheng and Wan, Yaping. (2021). Sensor Data Augmentation with Resampling for Contrastive Learning in Human Activity Recognition
 
-[3] ]E. De-La-Hoz-Franco, P. Ariza-Colpas, J. M. Quero and M. Espinilla, "Sensor-Based Datasets for Human Activity Recognition – A Systematic Review of Literature," in IEEE Access, vol. 6, pp. 59192-59210, 2018, doi: 10.1109/ACCESS.2018.2873502
+[3] E. De-La-Hoz-Franco, P. Ariza-Colpas, J. M. Quero and M. Espinilla, "Sensor-Based Datasets for Human Activity Recognition – A Systematic Review of Literature," in IEEE Access, vol. 6, pp. 59192-59210, 2018, doi: 10.1109/ACCESS.2018.2873502
 
 [4] Wen, Qingsong et al. “Time Series Data Augmentation for Deep Learning: A Survey.” IJCAI (2021)
 
@@ -119,28 +119,3 @@ In this project, we studied the impact of data augmentation and weight decay on 
 
 
 
-# Abstract
-
-Provide a brief overview of the project objhectives, approach, and results.
-
-# 1. Introduction
-
-This section should cover the following items:
-
-* Motivation & Objective: What are you trying to do and why? (plain English without jargon)
-* State of the Art & Its Limitations: How is it done today, and what are the limits of current practice?
-* Novelty & Rationale: What is new in your approach and why do you think it will be successful?
-* Potential Impact: If the project is successful, what difference will it make, both technically and broadly?
-* Challenges: What are the challenges and risks?
-* Requirements for Success: What skills and resources are necessary to perform the project?
-* Metrics of Success: What are metrics by which you would check for success?
-
-# 2. Related Work
-
-# 3. Technical Approach
-
-# 4. Evaluation and Results
-
-# 5. Discussion and Conclusions
-
-# 6. References
