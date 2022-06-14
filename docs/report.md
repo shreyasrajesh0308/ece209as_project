@@ -89,7 +89,7 @@ The study involves a model architecture of varying complexity  to understand the
 <p align="center">
     Fig.1
 </p>
- ![ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png)
+ [![ConvLSTM Medium Model][ConvLSTM]](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png)
  <p align="center">
     Fig.2
 </p>
