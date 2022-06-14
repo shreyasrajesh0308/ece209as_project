@@ -19,42 +19,39 @@ Presently, Human Activity Recognition (HAR) is an important task of  wearable de
 ## 1. Introduction
 
 Regularization is a commonly used technique to ensure better generalization in neural network models. Recent works show that Data Augmentation (DA) for images using ResNet50 has a detrimental effect on closer analysis, the accuracy of select classes has dropped (for example is the ‘barn spider’ class accuracy falls from 68% to 46% by introducing random crop DA during training). The work shows that there can be a massive risk of bias being introduced with many classes having a stark reduction in accuracy after augmentation in large image recognition models. The study noted that even in data agnostic techniques like weight decay, there is imbalance in the change of class accuracies.
- Human Activity Recognition (HAR) is vital for smart assistive technologies for usage in healthcare, skill assessment, smart homes, and industries. Fitness trackers are commercially available to detect step count, calorie burn, heart rate tracking, and fall detection. Wearable activity recognition relies on combinations of sensors, such as accelerometers, gyroscopes, or magnetic field sensors. Activities are commonly classified using feature extraction on sliding windows followed by classification, and template matching approaches. Frequently used data augmentation for HAR includes Noise addition, Scaling, Resampling, Magnify,Rotation, Time Warping, [2], [4]. Due to numerous applications of activity recognition, it is crucial to be aware of the downfalls of these data augmentation techniques. 
+ Human Activity Recognition (HAR) is vital for smart assistive technologies for usage in healthcare, skill assessment, smart homes, and industries. Fitness trackers are commercially available to detect step count, calorie burn, heart rate tracking, and fall detection. Wearable activity recognition relies on combinations of sensors, such as accelerometers, gyroscopes, or magnetic field sensors. Activities are commonly classified using feature extraction on sliding windows followed by classification, and template matching approaches. Frequently used data augmentation for HAR includes Noise addition, Scaling, Resampling, Magnify,Rotation, Time Warping, [2], [4]. Due to numerous applications of activity recognition, it is crucial to be aware of the downfalls of these data augmentation techniques.
 
-State of the Art & Its Limitations
+State of the Art & Its Limitations \
 To our knowledge, none of the contemporary works study the effect of data augmentation techniques on class accuracy for human activity recognition. Recent work [1] has looked at how augmentation affects class-based accuracy for images which we look to expand for human activity recognition. The current state of the art models for human activity recognition are [2]: DeepConvLSTM, DeepConvLSTM Attention, Multi-Head Convolutional Attention [2]
 
- Novelty & Rationale
-We aim to explore various augmentation techniques commonly used in supervised learning on sensor data commonly used in human activity recognition and hope to understand the possible bias they induce into the system. 
+ Novelty & Rationale \
+We aim to explore various augmentation techniques commonly used in supervised learning on sensor data commonly used in human activity recognition and hope to understand the possible bias they induce into the system.
 
- Potential Impact
+ Potential Impact \
 We believe this work could provide a better understanding of the effects of augmentation on HAR. Data augmentation techniques are used extensively in most deep learning systems to improve generalization and reduce overfitting. Exploring the effects on class-wise accuracy will help to enhance understanding of the effects it has on the system and could have a large impact on influencing further exploration into data augmentation. The work also has the broader effect of providing insights into what is being learned by the deep learning network.
 
- Challenges
-
+ Challenges \
 The following are the main identified challenges:
-* Number of Human activity recognition datasets is fewer, limiting our study.
-* Interpreting the results of data augmentation on a per-class basis could be ambiguous.
+* Number of Human activity recognition datasets is fewer, limiting our study
+* Interpreting the results of data augmentation on a per-class basis could be ambiguous
 
  Requirements for Success
-
-* Skills required are python programming and familiarity with a Deep Learning library. We shall Keras with a Tensorflow backend. 
-* Adequate compute for training deep learning models, models are trainable using google colab GPUs.  
+* Skills required are python programming and familiarity with a Deep Learning library. We shall Keras with a Tensorflow backend
+* Adequate compute for training deep learning models, models are trainable using google colab GPUs  
 
  Metrics of Success
-
-*Comparison of dataset augmentation techniques on HAR
+* Comparison of dataset augmentation techniques on HAR
 * Make inferences based on the results for the HAR classification problem
-*Deduce the best data augmentation technique and study its performance against models without augmentation. Specifically, the accuracy per class, as well as the effects of various data augmentation techniques, is studied. 
+* Deduce the best data augmentation technique and study its performance against models without augmentation. Specifically, the accuracy per class, as well as the effects of various data augmentation techniques, is studied
 
- 8. Execution Plan
+ Execution Plan
+* Consider a baseline Model and train it without augmentation on the HAR dataset. This shall serve as our baseline
+* Perform a literature survey of common augmentation techniques sensor data, understand what is commonly used and pick the best augmentation strategies
+* Train the same model with just unique augmentation applied at a time
+* Compare the accuracy of each class of the newly created model with the baseline model
+* Apply more than one augmentation to the data and retrain the model followed by estimating accuracies
+* Repeat process with different models and datasets
 
-* Consider a baseline Model and train it without augmentation on the HAR dataset. This shall serve as our baseline. 
-* Perform a literature survey of common augmentation techniques sensor data, understand what is commonly used and pick the best augmentation strategies. 
-* Train the same model with just unique augmentation applied at a time. 
-* Compare the accuracy of each class of the newly created model with the baseline model.
-* Apply more than one augmentation to the data and retrain the model followed by estimating accuracies. 
-* Repeat process with different models and datasets. 
 
 ## 2. Related Work
 Deep-Learning based Human Activity Recognition has been seeing a lot of recent developments and is well studied in the literature [4], [3]. To tackle the diverse problems that are distinct to the Sensor/Human Activity Recognition Dataset such as the amount of Dataset Fidelity, High Frequency/Random Noise Corruption, variation in temporal scales, and sampling frequencies that mask the original data [2], researchers in continuous pursuit of strategies that would help the Deep learning models to still capture distinguish between activities in presence of these activities[5]. This problem is compounded by the lack of relevant datasets which align closely with the rich, diverse data representations that sensors yield in real-time. Augmentation strategies are inevitably utilized to address this issue thereby increasing the amount of the dataset size available at one’s disposal for attempting to train complex data-hungry Deep Learning models. Hence, there is a strong incentive to conduct further investigation along the lines of analyzing Augmentation and its impact, implications, and performance benefits that could be potentially reaped while exploring the fairness implications of models in serving the predictions for a candidate dataset that might be randomly sampled from any of the class entities.
@@ -80,7 +77,7 @@ Multiply by a random scalar to magnify the size of the data in the window to sim
 #### Resampling
 Simulates multiple disturbances by varying the sampling frequency of sensor data
 #### Noise Addition
-A method for simulating additional sensor noise by multiplying the raw sample values with values that match uniform distribution \
+A method for simulating additional sensor noise by multiplying the raw sample values with values that match uniform distribution 
 
 ### c. Weight Decay
 Weight decay adds a penalty to the loss function, which has been well known to enhance model generalization and help prevent overfitting. Here we have added l1 and l2 norms of weights to our existing loss function with coefficient for l1 being 1e-5 and coefficient of l2 being 1e-4.
@@ -88,7 +85,18 @@ Weight decay adds a penalty to the loss function, which has been well known to e
 ### d. Models
 The study involves a model architecture of varying complexity  to understand the impact of regularization. We used a small model with an LSTM architecture model having 54,706 parameters, a medium sized model with Deep ConvLSTM architecture having 416,716 parameters. A larger model with the DeepConvLSTM architecture having 589,388 parameters is also included. All the models used in the study are below.
 
-
+ ![LSTM] (https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/LSTM_Model_Small.png)
+<p align="center">
+    Fig.1
+</p>
+ ![ConvLSTM] (https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png)
+ <p align="center">
+    Fig.2
+</p>
+ ![DeepConvLSTM] (https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/DeepConvLSTM_Large.png
+<p align="center">
+    Fig.3
+</p>
 
 
 ## 4. Evaluation and Results
