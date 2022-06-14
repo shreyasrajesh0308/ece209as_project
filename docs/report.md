@@ -91,25 +91,25 @@ The study involves a model architecture of varying complexity  to understand the
 
 ### UCI HAR
  * [LSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_LSTM.JPG)
- * ![LSTM](/Evaluation_Results/UCI_HAR_LSTM.JPG "UCI HAR LSTM")
+ * ![LSTM](/docs/Evaluation_Results/UCI_HAR_LSTM.JPG "UCI HAR LSTM")
  * [ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_Conv_LSTM.JPG)
- * ![ConvLSTM](/Evaluation_Results/UCI_HAR_Conv_LSTM.JPG "UCI HAR ConvLSTM")
+ * ![ConvLSTM](/docs/Evaluation_Results/UCI_HAR_Conv_LSTM.JPG "UCI HAR ConvLSTM")
  * [DeepConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_DeepConv_LSTM.JPG)
- * ![DeepConvLSTM](/Evaluation_Results/UCI_HAR_DeepConv_LSTM.JPG "UCI HAR DeepConvLSTM")
+ * ![DeepConvLSTM](/docs/Evaluation_Results/UCI_HAR_DeepConv_LSTM.JPG "UCI HAR DeepConvLSTM")
 
 ### USC HAD
 * [LSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/USC_HAD/USC_HAD_LSTM.JPG)
-* ![LSTM](/Evaluation_Results/USC_HAD_LSTM.JPG "USC HAD LSTM")
+* ![LSTM](/docs/Evaluation_Results/USC_HAD_LSTM.JPG "USC HAD LSTM")
 * [ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/USC_HAD/USC_HAD_Conv_LSTM.JPG)
-* ![ConvLSTM](/Evaluation_Results/USC_HAD_Conv_LSTM.JPG "USC HAD ConvLSTM")
+* ![ConvLSTM](/docs/Evaluation_Results/USC_HAD_Conv_LSTM.JPG "USC HAD ConvLSTM")
 * [DeepConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/USC_HAD/USC_HAD_DeepConv_LSTM.JPG)
-* ![DeepConvLSTM](/Evaluation_Results/USC_HAD_DeepConv_LSTM.JPG "USC HAD DeepConvLSTM")
+* ![DeepConvLSTM](/docs/Evaluation_Results/USC_HAD_DeepConv_LSTM.JPG "USC HAD DeepConvLSTM")
 
 ### PAMAP
 * [LSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/PAMAP/PAMAP_LSTM.JPG)
-* ![LSTM](/Evaluation_Results/PAMAP_LSTM.JPG "PAMAP LSTM")
+* ![LSTM](/docs/Evaluation_Results/PAMAP_LSTM.JPG "PAMAP LSTM")
 * [ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/PAMAP/PAMAP_Conv_LSTM.JPG)
-* ![ConvLSTM](/Evaluation_Results/PAMAP_Conv_LSTM.JPG "PAMAP ConvLSTM")
+* ![ConvLSTM](/docs/Evaluation_Results/PAMAP_Conv_LSTM.JPG "PAMAP ConvLSTM")
 
 
 
