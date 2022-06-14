@@ -97,15 +97,15 @@ The study involves a model architecture of varying complexity  to understand the
 ## 4. Evaluation and Results
 
 ### UCI HAR
-  #### LSTM
+#### LSTM
   ![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/UCI_HAR_LSTM.JPG)
 #### ConvLSTM 
   ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/UCI_HAR_Conv_LSTM.JPG)
- #### DeepConvLSTM
+#### DeepConvLSTM
   ![DeepConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/UCI_HAR_DeepConv_LSTM.JPG)
 
 ### USC HAD
- #### LSTM
+#### LSTM
   ![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/USC_HAD_LSTM.JPG)
 #### ConvLSTM 
   ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/USC_HAD_Conv_LSTM.JPG)
@@ -114,7 +114,7 @@ The study involves a model architecture of varying complexity  to understand the
 
 
 ### PAMAP
- #### LSTM
+#### LSTM
   ![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/PAMAP_LSTM.JPG)
 #### ConvLSTM 
   ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/PAMAP_Conv_LSTM.JPG)
