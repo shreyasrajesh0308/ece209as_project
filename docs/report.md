@@ -87,11 +87,11 @@ The study involves a model architecture of varying complexity  to understand the
 
 
 
-![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/LSTM_Model_Small.png)
+![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/media/Models/LSTM_Model_Small.png)
+ 
+![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/media/Models/ConvLSTM_Medium.png)
 
-![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png)
-
-![DeepConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/DeepConvLSTM_Large.png)
+![DeepConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/media/Models/DeepConvLSTM_Large.png)
 
 
 ## 4. Evaluation and Results
@@ -100,7 +100,7 @@ The study involves a model architecture of varying complexity  to understand the
   #### LSTM
   ![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/UCI_HAR_LSTM.JPG)
 #### ConvLSTM 
-  ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_Conv_LSTM.JPG)
+  ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/UCI_HAR_Conv_LSTM.JPG)
  #### DeepConvLSTM
   ![DeepConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/UCI_HAR_DeepConv_LSTM.JPG)
 
@@ -108,16 +108,16 @@ The study involves a model architecture of varying complexity  to understand the
  #### LSTM
   ![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/USC_HAD_LSTM.JPG)
 #### ConvLSTM 
-  ![ConvLSTM](https:/raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/blob/main/docs/Evaluation_Results/USC_HAD_Conv_LSTM.JPG )
+  ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/USC_HAD_Conv_LSTM.JPG)
 #### DeepConvLSTM
-  ![DeepConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/blob/main/docs/Evaluation_Results/USC_HAD_DeepConv_LSTM.JPG)
+  ![DeepConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/USC_HAD_DeepConv_LSTM.JPG)
 
 
 ### PAMAP
  #### LSTM
-  ![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/blob/main/docs/Evaluation_Results/PAMAP_LSTM.JPG)
+  ![LSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/PAMAP_LSTM.JPG)
 #### ConvLSTM 
-  ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/blob/main/docs/Evaluation_Results/PAMAP_Conv_LSTM.JPG)
+  ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/docs/Evaluation_Results/PAMAP_Conv_LSTM.JPG)
 
 
 We see that we do notice the same trends in some cases with the HAR datasets eventhough none are as pronounced as what we saw with Imagenet. We see that adding these techiques for regulrization come with their own pitfalls. For example adding a rotations augmentation to the USC-HAD dataset with a moving up an elevator class introduces a bias which drops the accuracy of these classes eventhough the overall accuracy see's an improvement. A possible explanation for this could be the decision boundaries learnt for certain classes are not as robust as other classes leading to a drop in accuracy as a little variation is introduced in the dataset, but a larger study has to be performed to further explore these findings. 
