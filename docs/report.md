@@ -128,13 +128,21 @@ In this project, we studied the impact of data augmentation and weight decay on 
 [4] Wen, Qingsong et al. “Time Series Data Augmentation for Deep Learning: A Survey.” IJCAI (2021)
 
 [5] Cui, Zhicheng and Chen, Wenlin and Chen, Yixin. (2016). Multi-Scale Convolutional Neural Networks for Time Series Classification 
+
 [6] S. Mekruksavanich and A. Jitpattanakul, “LSTM Networks using Smartphone data for Sensor-based Human Activity Recognition in smart homes,” Sensors, vol. 21, no. 5, p. 1636, 2021
+
 [7] A. Hoelzemann, N. Sorathiya and K. Van Laerhoven, "Data Augmentation Strategies for Human Activity Data Using Generative Adversarial Neural Networks," 2021 IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops), 2021, pp. 8-13, doi: 10.1109/PerComWorkshops51409.2021.9431046.
-[8] Fu, B., Kirchbuchner, F., & Kuijper, A. (2020). Data augmentation for time series: traditional vs generative models on capacitive proximity time series. Proceedings of the 13th ACM International Conference on PErvasive Technologies Related to Assistive Environments
+
+[8] Fu, B., Kirchbuchner, F., & Kuijper, A. (2020). Data augmentation for time series: traditional vs generative models on capacitive proximity time series. Proceedings of the 13th ACM International Conference on Pervasive Technologies Related to Assistive Environments
+
 [9] https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+
 [10] https://archive.ics.uci.edu/ml/datasets/PAMAP2+Physical+Activity+Monitoring
+
 [11]  https://sipi.usc.edu/had/
+
 [12] UCI Machine Learning Repository: OPPORTUNITY Activity Recognition Data Set
+
 [13] UCI Machine Learning Repository: WISDM Smartphone and Smartwatch Activity and Biometrics Dataset Data Set
 
 
