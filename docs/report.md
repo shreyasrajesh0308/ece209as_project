@@ -89,11 +89,20 @@ The study involves a model architecture of varying complexity  to understand the
   <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/LSTM_Model_Small.png" />
 </p>
 
- ![LSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/LSTM_Model_Small.png)
+<p align="center">
+  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png" />
+</p>
 
- ![ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png)
+<p align="center">
+  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/DeepConvLSTM_Large.png" />
+</p>
 
- ![DeepConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/DeepConvLSTM_Large.png)
+
+ [](![LSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/LSTM_Model_Small.png))
+
+ [](![ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png))
+
+ [](![DeepConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/DeepConvLSTM_Large.png))
 
 
 
