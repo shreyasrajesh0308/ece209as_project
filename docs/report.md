@@ -1,4 +1,4 @@
-*# Report
+# Report
 
 
 ## Table of Contents
