@@ -103,7 +103,7 @@ The study involves a model architecture of varying complexity  to understand the
   [LSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_LSTM.JPG)
   ![LSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/Evaluation_Results/UCI_HAR_LSTM.JPG)
   [ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_Conv_LSTM.JPG)
-  ![ConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/Evaluation_Results/UCI_HAR_Conv_LSTM.JPG "UCI HAR ConvLSTM")
+  ![ConvLSTM](https://raw.githubusercontent.com/shreyasrajesh0308/ece209as_project/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_Conv_LSTM.JPG)
   [DeepConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/data/Evaluation_Results/UCI_HAR/UCI_HAR_DeepConv_LSTM.JPG)
   ![DeepConvLSTM](https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/Evaluation_Results/UCI_HAR_DeepConv_LSTM.JPG "UCI HAR DeepConvLSTM")
 
