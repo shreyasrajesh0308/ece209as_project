@@ -86,15 +86,15 @@ Weight decay adds a penalty to the loss function, which has been well known to e
 The study involves a model architecture of varying complexity  to understand the impact of regularization. We used a small model with an LSTM architecture model having 54,706 parameters, a medium sized model with Deep ConvLSTM architecture having 416,716 parameters. A larger model with the DeepConvLSTM architecture having 589,388 parameters is also included. All the models used in the study are below.
 
 <p align="center">
-  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/LSTM_Model_Small.png" />
+  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/LSTM_Model_Small.PNG" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.png" />
+  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/ConvLSTM_Medium.PNG" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/DeepConvLSTM_Large.png" />
+  <img src="https://github.com/shreyasrajesh0308/ece209as_project/blob/main/docs/media/Models/DeepConvLSTM_Large.PNG" />
 </p>
 
 
