@@ -4,5 +4,5 @@ show_downloads: true
 # google_analytics:[Your Google Analytics tracking ID]
 
 # Name of website
-title: Effect of Augmentation on Human Activity Recognition
+title: Effect of Data Augmentation on HAR
 description: Project for UCLA ECE209AS (Spring 2022)
